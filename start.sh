@@ -1,7 +1,7 @@
 #!/bin/bash
 
-gcc -o bignum-C bignum-C.c
-g++ -o bignum-C++ bignum-C++.cpp
+gcc -O3 -o bignum-C bignum-C.c
+g++ -O3 -o bignum-C++ bignum-C++.cpp
 javac Bignumjava.java
 go build bignum-golang.go
 
