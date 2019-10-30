@@ -1,4 +1,9 @@
-#!/usr/bin/sh
+#!/bin/bash
+
+gcc -o bignum-C bignum-C.c
+g++ -o bignum-C++ bignum-C++.cpp
+javac Bignumjava.java
+go build bignum-golang.go
 
 echo "C:"
 time ./bignum-C

@@ -1,4 +1,6 @@
 sum = 0
-for i in range(100000000):
+n = 100000000
+print("n = %d" %(n)) 
+for i in range(n):
     sum += i
-print(sum)
+print("sum = %d" %(sum)) 
